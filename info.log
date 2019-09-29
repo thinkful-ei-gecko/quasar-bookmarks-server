@@ -1,0 +1,36 @@
+{"message":"Unauthorized request to path /","level":"error"}
+{"message":"Unauthorized request to path /","level":"error"}
+{"message":"Book with id 1 not found.","level":"error"}
+{"message":"Book with id 1 not found.","level":"error"}
+{"message":"Book with id c1831feb-8bb6-4d1a-974b-03f663b8c576 created","level":"info"}
+{"message":"Unauthorized request to path /bookmarks/c1831feb-8bb6-4d1a-974b-03f663b8c576","level":"error"}
+{"message":"Book with id c1831feb-8bb6-4d1a-974b-03f663b8 not found.","level":"error"}
+{"message":"Book with id c1831feb-8bb6-4d1a-974b-03f663b8c576 not found.","level":"error"}
+{"message":"Book with id 933c9e5c-120c-4c30-baaf-08d2ccc9fea6 created","level":"info"}
+{"message":"Card with id 933c9e5c-120c-4c30-baaf-08d2ccc9fea6 deleted.","level":"info"}
+{"message":"Invalid URL format","level":"error"}
+{"message":"Invalid URL format","level":"error"}
+{"message":"Book with id e51d52ea-edf2-4af7-86c2-743eefc51576 created","level":"info"}
+{"message":"Book with id e51d52ea-edf2-4af7-86c2-743eefc51576 not found","level":"error"}
+{"message":"Unauthorized request to path /","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /","level":"error"}
+{"message":"Unauthorized request to path /","level":"error"}
+{"message":"Unauthorized request to path /","level":"error"}
+{"message":"Unauthorized request to path /","level":"error"}
+{"message":"Unauthorized request to path /","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
