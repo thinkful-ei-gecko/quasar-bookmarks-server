@@ -1,0 +1,22 @@
+INSERT INTO bookmarks (title, url, description, rating)
+VALUES
+  ('Artstation', 'https://artstation.com',
+  'description 1', 5),
+  ('DuckDuckGo', 'https://duckduckgo.com',
+  'description 2', 2),
+  ('Artstation', 'https://artstation.com',
+  'description 3', 3),
+  ('Artstation', 'https://artstation.com',
+  'description 4', 4),
+  ('Artstation', 'https://artstation.com',
+  'description 5', 5),
+  ('Artstation', 'https://artstation.com',
+  'description 6', 5),
+  ('Artstation', 'https://artstation.com',
+  'description 7', 4),
+  ('Artstation', 'https://artstation.com',
+  'description 8', 3),
+  ('Artstation', 'https://artstation.com',
+  'description 9', 2),
+  ('Cryengine', 'https://cryengine.com',
+  'description 10', 1)

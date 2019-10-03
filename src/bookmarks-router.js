@@ -6,67 +6,75 @@ const { isWebUri } = require('valid-url')
 
 const bookmarksRouter = express.Router();
 const bodyParser = express.json();
+const BookmarksService = require('./bookmarks-service');
 
 bookmarksRouter.get('/', (req, res, next) => {
-  res.json(books)
-})
+  const knexInstance = req.app.get('db');
+  BookmarksService.getAllBookmarks(knexInstance)
+    .then(bookmarks => res.json(bookmarks))
+    .catch(next);
+});
 
 bookmarksRouter.get('/:id', (req, res, next) => {
   const { id } = req.params;
-  const bookmark = books.find(list => list.id == id);
-
-  if(!bookmark) {
-    logger.error(`Book with id ${id} not found.`)
-    return res
-      .status(404)
-      .send('Book not found')
-  }
-  res.json(bookmark)
-})
+  const knexInstance = req.app.get('db');
+  // const bookmark = books.find(list => list.id == id);
+  BookmarksService.getById(knexInstance, id)
+    .then( bookmark => {
+      if(!bookmark) {
+        logger.error(`Book with id ${id} not found.`);
+        return res.status(404).json({
+          error: { message : 'bookmark doesn\'t exist' }
+        });
+      }
+      res.json(bookmark);
+    })
+    .catch(next);
+});
 
 bookmarksRouter.post('/', bodyParser, (req, res, next) => {
   const { title, url, description, rating } = req.body;
 
   if(!title) {
-    logger.error('Title not found')
+    logger.error('Title not found');
     return res
       .status(400)
-      .send('Please enter title')
+      .send('Please enter title');
   }
 
   if(!url) {
-    logger.error('No URL supplied')
+    logger.error('No URL supplied');
     return res
       .status(400)
-      .send('Please enter a URL')
+      .send('Please enter a URL');
   }
   
   if(!isWebUri(url)) {
-    logger.error(`Invalid URL format`)
+    logger.error(`Invalid URL format`);
     return res
       .status(400)
-      .send('Please enter a valid URL format')
+      .send('Please enter a valid URL format');
   }
 
   if(!description) {
-    logger.error('No description found')
+    logger.error('No description found');
     return res
       .status(400)
-      .send('Please enter a description')
+      .send('Please enter a description');
   }
 
   if(!rating) {
-    logger.error('No rating found')
+    logger.error('No rating found');
     return res
       .status(400)
-      .send('Please enter a rating')
+      .send('Please enter a rating');
   }
 
   if((typeof rating !== 'number') || (rating < 1 || rating > 5) ) {
-    logger.error('Invalid rating number')
+    logger.error('Invalid rating number');
     return res
       .status(400)
-      .send('Please enter number between 1 to 5')
+      .send('Please enter number between 1 to 5');
   }
 
   const id = uuid();
@@ -77,21 +85,21 @@ bookmarksRouter.post('/', bodyParser, (req, res, next) => {
     url,
     description,
     rating
-  }
+  };
   
-  books.push(bookObject)
+  books.push(bookObject);
 
   logger.info(`Book with id ${id} created`);
 
   res
     .status(201)
     .location(`http://localhost:8000/bookmarks/${id}`)
-    .json({id})
+    .json({id});
 });
 
 bookmarksRouter.delete('/:id', (req, res) => {
   const { id } = req.params
-  const bookmarkIndex = books.findIndex(list => list.id == id)
+  const bookmarkIndex = books.findIndex(list => list.id == id);
 
   if (bookmarkIndex === -1) {
     logger.error(`Book with id ${id} not found`);
@@ -102,11 +110,11 @@ bookmarksRouter.delete('/:id', (req, res) => {
 
   books.splice(bookmarkIndex, 1);
 
-  logger.info(`Card with id ${id} deleted.`)
+  logger.info(`Card with id ${id} deleted.`);
 
   res
     .status(204)
-    .end()
-})
+    .end();
+});
 
 module.exports = bookmarksRouter;
