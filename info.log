@@ -53,3 +53,115 @@
 {"message":"Book with id 123456 not found.","level":"error"}
 {"message":"Book with id 123456 not found.","level":"error"}
 {"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Book with id 23 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 9ab35fe0-057b-43ae-8916-b9ecaa8edd17 created","level":"info"}
+{"message":"Unauthorized request to path /api/articles","level":"error"}
+{"message":"Unauthorized request to path /api/articles","level":"error"}
+{"message":"Unauthorized request to path /api/articles","level":"error"}
+{"message":"Unauthorized request to path /api/articles","level":"error"}
+{"message":"Book with id 3cb4992f-1d18-440e-b5d7-85b2f926a160 created","level":"info"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"Book with id 2 not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
