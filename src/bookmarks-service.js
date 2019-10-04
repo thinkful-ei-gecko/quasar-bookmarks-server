@@ -13,9 +13,7 @@ const BookmarksService = {
       .insert(bookmark)
       .into('bookmarks')
       .returning('*')
-      .then(res => {
-        return res[0];
-      });
+      .then(res => res[0]);
   },
   deleteBookmark(knex, id) {
     return knex('bookmarks')

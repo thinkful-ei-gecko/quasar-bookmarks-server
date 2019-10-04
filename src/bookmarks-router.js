@@ -37,32 +37,31 @@ bookmarksRouter
         });
       }
     }
-    /* 
-        if (!isWebUri(url)) {
-          // logger.error('Invalid URL format');
-          return res
-            .status(400)
-            .json({
-              error: { message: 'Please enter a valid url' }
-            });
-        }
-    
-        if ((typeof rating !== 'number') || (rating < 1 || rating > 5)) {
-          logger.error('Invalid rating number');
-          return res
-            .status(400)
-            .json({
-              error: { mesage: 'Please enter a number between 1 and 5' }
-            });
-        }
-         */
 
-    // logger.info(`Book with id ${id} created`);
+    if (!isWebUri(url)) {
+      logger.error(`Invalid URL '${url}' supplied`);
+      return res
+        .status(400)
+        .json({
+          error: { message: '\'url\' must be a valid url' }
+        });
+    }
+
+    if ((typeof rating !== 'number') || (rating < 0 || rating > 5)) {
+      logger.error(`Invalid rating '${rating}' supplied`);
+      return res
+        .status(400)
+        .json({
+          error: { message: '\'rating\' must be a number between 0 and 5' }
+        });
+    }
+
     BookmarksService.insertBookmark(
       req.app.get('db'),
       newBookmark
     )
       .then(bookmark => {
+        logger.info(`Book with id ${bookmark.id} created`);
         return res
           .status(201)
           .location(path.posix.join(req.originalUrl, `/${bookmark.id}`))
@@ -80,6 +79,7 @@ bookmarksRouter
     )
       .then(bookmark => {
         if (!bookmark) {
+          logger.error(`Bookmark with id ${req.params.id} not found.`)
           return res.status(404).json({
             error: { message: 'Bookmark doesn\'t exist' }
           });
@@ -89,30 +89,16 @@ bookmarksRouter
       })
       .catch(next);
   })
-  .get((req, res, next) => {
-    const { id } = req.params;
-    const knexInstance = req.app.get('db');
-    // const bookmark = books.find(list => list.id == id);
-    BookmarksService.getById(knexInstance, id)
-      .then(bookmark => {
-        if (!bookmark) {
-          logger.error(`Book with id ${id} not found.`);
-          return res.status(404).json({
-            error: { message: 'Bookmark doesn\'t exist' }
-          });
-        }
-        res.json(bookmark);
-      })
-      .catch(next);
+  .get((req, res) => {
+    res.json(serializeBookmark(res.bookmark));
   })
   .delete((req, res, next) => {
-    const { id } = req.params;
-
     BookmarksService.deleteBookmark(
       req.app.get('db'),
       req.params.id
     )
       .then(numRowsAffected => {
+        logger.info(`Bookmark with id ${req.params.id} deleted`);
         res.status(204).end();
       })
       .catch(next);

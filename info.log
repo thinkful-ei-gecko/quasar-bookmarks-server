@@ -165,3 +165,124 @@
 {"message":"url not found","level":"error"}
 {"message":"description not found","level":"error"}
 {"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"Unauthorized request to path /api/bookmarks","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"Bookmark with id 123456 not found.","level":"error"}
+{"message":"Book with id 1 created","level":"info"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"Book with id 1 created","level":"info"}
+{"message":"Bookmark with id 2 deleted","level":"info"}
+{"message":"Bookmark with id 1234567 not found.","level":"error"}
+{"message":"Bookmark with id 123456 not found.","level":"error"}
+{"message":"Book with id 1 created","level":"info"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"Book with id 1 created","level":"info"}
+{"message":"Bookmark with id 2 deleted","level":"info"}
+{"message":"Bookmark with id 1234567 not found.","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks/2","level":"error"}
+{"message":"Unauthorized request to path /bookmarks/2","level":"error"}
+{"message":"Bookmark with id 123456 not found.","level":"error"}
+{"message":"Book with id 1 created","level":"info"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"Book with id 1 created","level":"info"}
+{"message":"Bookmark with id 2 deleted","level":"info"}
+{"message":"Bookmark with id 1234567 not found.","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks/2","level":"error"}
+{"message":"Unauthorized request to path /bookmarks/2","level":"error"}
+{"message":"Bookmark with id 123456 not found.","level":"error"}
+{"message":"Book with id 1 created","level":"info"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"Book with id 1 created","level":"info"}
+{"message":"Bookmark with id 2 deleted","level":"info"}
+{"message":"Bookmark with id 1234567 not found.","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks/2","level":"error"}
+{"message":"Unauthorized request to path /bookmarks/2","level":"error"}
+{"message":"Bookmark with id 123456 not found.","level":"error"}
+{"message":"Book with id 1 created","level":"info"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"title not found","level":"error"}
+{"message":"Book with id 1 created","level":"info"}
+{"message":"Bookmark with id 2 deleted","level":"info"}
+{"message":"Bookmark with id 1234567 not found.","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks/2","level":"error"}
+{"message":"Unauthorized request to path /bookmarks/2","level":"error"}
+{"message":"Bookmark with id 123456 not found.","level":"error"}
+{"message":"Book with id 1 created","level":"info"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"Invalid rating '6' supplied","level":"error"}
+{"message":"Book with id 1 created","level":"info"}
+{"message":"Bookmark with id 2 deleted","level":"info"}
+{"message":"Bookmark with id 1234567 not found.","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks","level":"error"}
+{"message":"Unauthorized request to path /bookmarks/2","level":"error"}
+{"message":"Unauthorized request to path /bookmarks/2","level":"error"}
+{"message":"Bookmark with id 123456 not found.","level":"error"}
+{"message":"Book with id 1 created","level":"info"}
+{"message":"title not found","level":"error"}
+{"message":"url not found","level":"error"}
+{"message":"description not found","level":"error"}
+{"message":"rating not found","level":"error"}
+{"message":"Invalid rating '6' supplied","level":"error"}
+{"message":"Invalid URL 'duckduckgo.com' supplied","level":"error"}
+{"message":"Book with id 1 created","level":"info"}
+{"message":"Bookmark with id 2 deleted","level":"info"}
+{"message":"Bookmark with id 1234567 not found.","level":"error"}
